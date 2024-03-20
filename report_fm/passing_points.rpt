@@ -1,0 +1,351 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/fsm
+Implementation : i:/WORK/fsm
+Version        : G-2012.06-SP2
+Date           : Sun Mar 12 13:29:47 2017
+**************************************************
+
+105 Passing compare points:
+
+  Ref  DFF        r:/WORK/fsm/current_state_reg_0_
+  Impl DFF        i:/WORK/fsm/current_state_reg_0_
+
+  Ref  DFF        r:/WORK/fsm/current_state_reg_1_
+  Impl DFF        i:/WORK/fsm/current_state_reg_1_
+
+  Ref  DFF        r:/WORK/fsm/current_state_reg_2_
+  Impl DFF        i:/WORK/fsm/current_state_reg_2_
+
+  Ref  Port       r:/WORK/fsm/Hrdata[0]
+  Impl Port       i:/WORK/fsm/Hrdata[0]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[10]
+  Impl Port       i:/WORK/fsm/Hrdata[10]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[11]
+  Impl Port       i:/WORK/fsm/Hrdata[11]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[12]
+  Impl Port       i:/WORK/fsm/Hrdata[12]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[13]
+  Impl Port       i:/WORK/fsm/Hrdata[13]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[14]
+  Impl Port       i:/WORK/fsm/Hrdata[14]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[15]
+  Impl Port       i:/WORK/fsm/Hrdata[15]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[16]
+  Impl Port       i:/WORK/fsm/Hrdata[16]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[17]
+  Impl Port       i:/WORK/fsm/Hrdata[17]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[18]
+  Impl Port       i:/WORK/fsm/Hrdata[18]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[19]
+  Impl Port       i:/WORK/fsm/Hrdata[19]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[1]
+  Impl Port       i:/WORK/fsm/Hrdata[1]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[20]
+  Impl Port       i:/WORK/fsm/Hrdata[20]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[21]
+  Impl Port       i:/WORK/fsm/Hrdata[21]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[22]
+  Impl Port       i:/WORK/fsm/Hrdata[22]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[23]
+  Impl Port       i:/WORK/fsm/Hrdata[23]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[24]
+  Impl Port       i:/WORK/fsm/Hrdata[24]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[25]
+  Impl Port       i:/WORK/fsm/Hrdata[25]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[26]
+  Impl Port       i:/WORK/fsm/Hrdata[26]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[27]
+  Impl Port       i:/WORK/fsm/Hrdata[27]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[28]
+  Impl Port       i:/WORK/fsm/Hrdata[28]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[29]
+  Impl Port       i:/WORK/fsm/Hrdata[29]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[2]
+  Impl Port       i:/WORK/fsm/Hrdata[2]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[30]
+  Impl Port       i:/WORK/fsm/Hrdata[30]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[31]
+  Impl Port       i:/WORK/fsm/Hrdata[31]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[3]
+  Impl Port       i:/WORK/fsm/Hrdata[3]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[4]
+  Impl Port       i:/WORK/fsm/Hrdata[4]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[5]
+  Impl Port       i:/WORK/fsm/Hrdata[5]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[6]
+  Impl Port       i:/WORK/fsm/Hrdata[6]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[7]
+  Impl Port       i:/WORK/fsm/Hrdata[7]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[8]
+  Impl Port       i:/WORK/fsm/Hrdata[8]
+
+  Ref  Port       r:/WORK/fsm/Hrdata[9]
+  Impl Port       i:/WORK/fsm/Hrdata[9]
+
+  Ref  Port       r:/WORK/fsm/Hready_out
+  Impl Port       i:/WORK/fsm/Hready_out
+
+  Ref  Port       r:/WORK/fsm/Hresp[0]
+  Impl Port       i:/WORK/fsm/Hresp[0]
+
+  Ref  Port       r:/WORK/fsm/Hresp[1]
+  Impl Port       i:/WORK/fsm/Hresp[1]
+
+  Ref  Port       r:/WORK/fsm/Paddr[0]
+  Impl Port       i:/WORK/fsm/Paddr[0]
+
+  Ref  Port       r:/WORK/fsm/Paddr[10]
+  Impl Port       i:/WORK/fsm/Paddr[10]
+
+  Ref  Port       r:/WORK/fsm/Paddr[11]
+  Impl Port       i:/WORK/fsm/Paddr[11]
+
+  Ref  Port       r:/WORK/fsm/Paddr[12]
+  Impl Port       i:/WORK/fsm/Paddr[12]
+
+  Ref  Port       r:/WORK/fsm/Paddr[13]
+  Impl Port       i:/WORK/fsm/Paddr[13]
+
+  Ref  Port       r:/WORK/fsm/Paddr[14]
+  Impl Port       i:/WORK/fsm/Paddr[14]
+
+  Ref  Port       r:/WORK/fsm/Paddr[15]
+  Impl Port       i:/WORK/fsm/Paddr[15]
+
+  Ref  Port       r:/WORK/fsm/Paddr[16]
+  Impl Port       i:/WORK/fsm/Paddr[16]
+
+  Ref  Port       r:/WORK/fsm/Paddr[17]
+  Impl Port       i:/WORK/fsm/Paddr[17]
+
+  Ref  Port       r:/WORK/fsm/Paddr[18]
+  Impl Port       i:/WORK/fsm/Paddr[18]
+
+  Ref  Port       r:/WORK/fsm/Paddr[19]
+  Impl Port       i:/WORK/fsm/Paddr[19]
+
+  Ref  Port       r:/WORK/fsm/Paddr[1]
+  Impl Port       i:/WORK/fsm/Paddr[1]
+
+  Ref  Port       r:/WORK/fsm/Paddr[20]
+  Impl Port       i:/WORK/fsm/Paddr[20]
+
+  Ref  Port       r:/WORK/fsm/Paddr[21]
+  Impl Port       i:/WORK/fsm/Paddr[21]
+
+  Ref  Port       r:/WORK/fsm/Paddr[22]
+  Impl Port       i:/WORK/fsm/Paddr[22]
+
+  Ref  Port       r:/WORK/fsm/Paddr[23]
+  Impl Port       i:/WORK/fsm/Paddr[23]
+
+  Ref  Port       r:/WORK/fsm/Paddr[24]
+  Impl Port       i:/WORK/fsm/Paddr[24]
+
+  Ref  Port       r:/WORK/fsm/Paddr[25]
+  Impl Port       i:/WORK/fsm/Paddr[25]
+
+  Ref  Port       r:/WORK/fsm/Paddr[26]
+  Impl Port       i:/WORK/fsm/Paddr[26]
+
+  Ref  Port       r:/WORK/fsm/Paddr[27]
+  Impl Port       i:/WORK/fsm/Paddr[27]
+
+  Ref  Port       r:/WORK/fsm/Paddr[28]
+  Impl Port       i:/WORK/fsm/Paddr[28]
+
+  Ref  Port       r:/WORK/fsm/Paddr[29]
+  Impl Port       i:/WORK/fsm/Paddr[29]
+
+  Ref  Port       r:/WORK/fsm/Paddr[2]
+  Impl Port       i:/WORK/fsm/Paddr[2]
+
+  Ref  Port       r:/WORK/fsm/Paddr[30]
+  Impl Port       i:/WORK/fsm/Paddr[30]
+
+  Ref  Port       r:/WORK/fsm/Paddr[31]
+  Impl Port       i:/WORK/fsm/Paddr[31]
+
+  Ref  Port       r:/WORK/fsm/Paddr[3]
+  Impl Port       i:/WORK/fsm/Paddr[3]
+
+  Ref  Port       r:/WORK/fsm/Paddr[4]
+  Impl Port       i:/WORK/fsm/Paddr[4]
+
+  Ref  Port       r:/WORK/fsm/Paddr[5]
+  Impl Port       i:/WORK/fsm/Paddr[5]
+
+  Ref  Port       r:/WORK/fsm/Paddr[6]
+  Impl Port       i:/WORK/fsm/Paddr[6]
+
+  Ref  Port       r:/WORK/fsm/Paddr[7]
+  Impl Port       i:/WORK/fsm/Paddr[7]
+
+  Ref  Port       r:/WORK/fsm/Paddr[8]
+  Impl Port       i:/WORK/fsm/Paddr[8]
+
+  Ref  Port       r:/WORK/fsm/Paddr[9]
+  Impl Port       i:/WORK/fsm/Paddr[9]
+
+  Ref  Port       r:/WORK/fsm/Penable
+  Impl Port       i:/WORK/fsm/Penable
+
+  Ref  Port       r:/WORK/fsm/Pselx
+  Impl Port       i:/WORK/fsm/Pselx
+
+  Ref  Port       r:/WORK/fsm/Pwdata[0]
+  Impl Port       i:/WORK/fsm/Pwdata[0]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[10]
+  Impl Port       i:/WORK/fsm/Pwdata[10]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[11]
+  Impl Port       i:/WORK/fsm/Pwdata[11]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[12]
+  Impl Port       i:/WORK/fsm/Pwdata[12]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[13]
+  Impl Port       i:/WORK/fsm/Pwdata[13]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[14]
+  Impl Port       i:/WORK/fsm/Pwdata[14]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[15]
+  Impl Port       i:/WORK/fsm/Pwdata[15]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[16]
+  Impl Port       i:/WORK/fsm/Pwdata[16]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[17]
+  Impl Port       i:/WORK/fsm/Pwdata[17]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[18]
+  Impl Port       i:/WORK/fsm/Pwdata[18]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[19]
+  Impl Port       i:/WORK/fsm/Pwdata[19]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[1]
+  Impl Port       i:/WORK/fsm/Pwdata[1]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[20]
+  Impl Port       i:/WORK/fsm/Pwdata[20]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[21]
+  Impl Port       i:/WORK/fsm/Pwdata[21]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[22]
+  Impl Port       i:/WORK/fsm/Pwdata[22]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[23]
+  Impl Port       i:/WORK/fsm/Pwdata[23]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[24]
+  Impl Port       i:/WORK/fsm/Pwdata[24]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[25]
+  Impl Port       i:/WORK/fsm/Pwdata[25]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[26]
+  Impl Port       i:/WORK/fsm/Pwdata[26]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[27]
+  Impl Port       i:/WORK/fsm/Pwdata[27]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[28]
+  Impl Port       i:/WORK/fsm/Pwdata[28]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[29]
+  Impl Port       i:/WORK/fsm/Pwdata[29]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[2]
+  Impl Port       i:/WORK/fsm/Pwdata[2]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[30]
+  Impl Port       i:/WORK/fsm/Pwdata[30]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[31]
+  Impl Port       i:/WORK/fsm/Pwdata[31]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[3]
+  Impl Port       i:/WORK/fsm/Pwdata[3]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[4]
+  Impl Port       i:/WORK/fsm/Pwdata[4]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[5]
+  Impl Port       i:/WORK/fsm/Pwdata[5]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[6]
+  Impl Port       i:/WORK/fsm/Pwdata[6]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[7]
+  Impl Port       i:/WORK/fsm/Pwdata[7]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[8]
+  Impl Port       i:/WORK/fsm/Pwdata[8]
+
+  Ref  Port       r:/WORK/fsm/Pwdata[9]
+  Impl Port       i:/WORK/fsm/Pwdata[9]
+
+  Ref  Port       r:/WORK/fsm/Pwrite
+  Impl Port       i:/WORK/fsm/Pwrite
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1
