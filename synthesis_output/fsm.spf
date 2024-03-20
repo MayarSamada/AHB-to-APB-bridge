@@ -1,0 +1,716 @@
+STIL 1.0 {
+    Design 2005;
+}
+Header {
+    Title "Minimal STIL for design `fsm'";
+    Date "Sun Mar 12 10:10:45 2017";
+    Source "DFT Compiler G-2012.06-SP2";
+}
+Signals {
+    "Haddr[0]" In;
+    "Haddr[10]" In;
+    "Haddr[11]" In;
+    "Haddr[12]" In;
+    "Haddr[13]" In;
+    "Haddr[14]" In;
+    "Haddr[15]" In;
+    "Haddr[16]" In;
+    "Haddr[17]" In;
+    "Haddr[18]" In;
+    "Haddr[19]" In;
+    "Haddr[1]" In;
+    "Haddr[20]" In;
+    "Haddr[21]" In;
+    "Haddr[22]" In;
+    "Haddr[23]" In;
+    "Haddr[24]" In;
+    "Haddr[25]" In;
+    "Haddr[26]" In;
+    "Haddr[27]" In;
+    "Haddr[28]" In;
+    "Haddr[29]" In;
+    "Haddr[2]" In;
+    "Haddr[30]" In;
+    "Haddr[31]" In;
+    "Haddr[3]" In;
+    "Haddr[4]" In;
+    "Haddr[5]" In;
+    "Haddr[6]" In;
+    "Haddr[7]" In;
+    "Haddr[8]" In;
+    "Haddr[9]" In;
+    "Hclk" In;
+    "Hrstn" In;
+    "Hsel_APB" In;
+    "Htrans[0]" In;
+    "Htrans[1]" In;
+    "Hwdata[0]" In;
+    "Hwdata[10]" In;
+    "Hwdata[11]" In;
+    "Hwdata[12]" In;
+    "Hwdata[13]" In;
+    "Hwdata[14]" In;
+    "Hwdata[15]" In;
+    "Hwdata[16]" In;
+    "Hwdata[17]" In;
+    "Hwdata[18]" In;
+    "Hwdata[19]" In;
+    "Hwdata[1]" In;
+    "Hwdata[20]" In;
+    "Hwdata[21]" In;
+    "Hwdata[22]" In;
+    "Hwdata[23]" In;
+    "Hwdata[24]" In;
+    "Hwdata[25]" In;
+    "Hwdata[26]" In;
+    "Hwdata[27]" In;
+    "Hwdata[28]" In;
+    "Hwdata[29]" In;
+    "Hwdata[2]" In;
+    "Hwdata[30]" In;
+    "Hwdata[31]" In;
+    "Hwdata[3]" In;
+    "Hwdata[4]" In;
+    "Hwdata[5]" In;
+    "Hwdata[6]" In;
+    "Hwdata[7]" In;
+    "Hwdata[8]" In;
+    "Hwdata[9]" In;
+    "Hwrite" In;
+    "Prdata[0]" In;
+    "Prdata[10]" In;
+    "Prdata[11]" In;
+    "Prdata[12]" In;
+    "Prdata[13]" In;
+    "Prdata[14]" In;
+    "Prdata[15]" In;
+    "Prdata[16]" In;
+    "Prdata[17]" In;
+    "Prdata[18]" In;
+    "Prdata[19]" In;
+    "Prdata[1]" In;
+    "Prdata[20]" In;
+    "Prdata[21]" In;
+    "Prdata[22]" In;
+    "Prdata[23]" In;
+    "Prdata[24]" In;
+    "Prdata[25]" In;
+    "Prdata[26]" In;
+    "Prdata[27]" In;
+    "Prdata[28]" In;
+    "Prdata[29]" In;
+    "Prdata[2]" In;
+    "Prdata[30]" In;
+    "Prdata[31]" In;
+    "Prdata[3]" In;
+    "Prdata[4]" In;
+    "Prdata[5]" In;
+    "Prdata[6]" In;
+    "Prdata[7]" In;
+    "Prdata[8]" In;
+    "Prdata[9]" In;
+    "test_se" In;
+    "test_si" In;
+    "Hrdata[0]" Out;
+    "Hrdata[10]" Out;
+    "Hrdata[11]" Out;
+    "Hrdata[12]" Out;
+    "Hrdata[13]" Out;
+    "Hrdata[14]" Out;
+    "Hrdata[15]" Out;
+    "Hrdata[16]" Out;
+    "Hrdata[17]" Out;
+    "Hrdata[18]" Out;
+    "Hrdata[19]" Out;
+    "Hrdata[1]" Out;
+    "Hrdata[20]" Out;
+    "Hrdata[21]" Out;
+    "Hrdata[22]" Out;
+    "Hrdata[23]" Out;
+    "Hrdata[24]" Out;
+    "Hrdata[25]" Out;
+    "Hrdata[26]" Out;
+    "Hrdata[27]" Out;
+    "Hrdata[28]" Out;
+    "Hrdata[29]" Out;
+    "Hrdata[2]" Out;
+    "Hrdata[30]" Out;
+    "Hrdata[31]" Out;
+    "Hrdata[3]" Out;
+    "Hrdata[4]" Out;
+    "Hrdata[5]" Out;
+    "Hrdata[6]" Out;
+    "Hrdata[7]" Out;
+    "Hrdata[8]" Out;
+    "Hrdata[9]" Out;
+    "Hready_out" Out;
+    "Hresp[0]" Out;
+    "Hresp[1]" Out;
+    "Paddr[0]" Out;
+    "Paddr[10]" Out;
+    "Paddr[11]" Out;
+    "Paddr[12]" Out;
+    "Paddr[13]" Out;
+    "Paddr[14]" Out;
+    "Paddr[15]" Out;
+    "Paddr[16]" Out;
+    "Paddr[17]" Out;
+    "Paddr[18]" Out;
+    "Paddr[19]" Out;
+    "Paddr[1]" Out;
+    "Paddr[20]" Out;
+    "Paddr[21]" Out;
+    "Paddr[22]" Out;
+    "Paddr[23]" Out;
+    "Paddr[24]" Out;
+    "Paddr[25]" Out;
+    "Paddr[26]" Out;
+    "Paddr[27]" Out;
+    "Paddr[28]" Out;
+    "Paddr[29]" Out;
+    "Paddr[2]" Out;
+    "Paddr[30]" Out;
+    "Paddr[31]" Out;
+    "Paddr[3]" Out;
+    "Paddr[4]" Out;
+    "Paddr[5]" Out;
+    "Paddr[6]" Out;
+    "Paddr[7]" Out;
+    "Paddr[8]" Out;
+    "Paddr[9]" Out;
+    "Penable" Out;
+    "Pselx" Out;
+    "Pwdata[0]" Out;
+    "Pwdata[10]" Out;
+    "Pwdata[11]" Out;
+    "Pwdata[12]" Out;
+    "Pwdata[13]" Out;
+    "Pwdata[14]" Out;
+    "Pwdata[15]" Out;
+    "Pwdata[16]" Out;
+    "Pwdata[17]" Out;
+    "Pwdata[18]" Out;
+    "Pwdata[19]" Out;
+    "Pwdata[1]" Out;
+    "Pwdata[20]" Out;
+    "Pwdata[21]" Out;
+    "Pwdata[22]" Out;
+    "Pwdata[23]" Out;
+    "Pwdata[24]" Out;
+    "Pwdata[25]" Out;
+    "Pwdata[26]" Out;
+    "Pwdata[27]" Out;
+    "Pwdata[28]" Out;
+    "Pwdata[29]" Out;
+    "Pwdata[2]" Out;
+    "Pwdata[30]" Out;
+    "Pwdata[31]" Out;
+    "Pwdata[3]" Out;
+    "Pwdata[4]" Out;
+    "Pwdata[5]" Out;
+    "Pwdata[6]" Out;
+    "Pwdata[7]" Out;
+    "Pwdata[8]" Out;
+    "Pwdata[9]" Out;
+    "Pwrite" Out;
+    "test_so" Out;
+}
+SignalGroups {
+    "_si" = '"test_si"' {
+        ScanIn;
+    }
+    "_so" = '"test_so"' {
+        ScanOut;
+    }
+    "_clk" = '"Hclk" + "Hrstn"';
+    "all_inputs" = '"Haddr[0]" + "Haddr[10]" + "Haddr[11]" + "Haddr[12]" + 
+    "Haddr[13]" + "Haddr[14]" + "Haddr[15]" + "Haddr[16]" + "Haddr[17]" + 
+    "Haddr[18]" + "Haddr[19]" + "Haddr[1]" + "Haddr[20]" + "Haddr[21]" + 
+    "Haddr[22]" + "Haddr[23]" + "Haddr[24]" + "Haddr[25]" + "Haddr[26]" + 
+    "Haddr[27]" + "Haddr[28]" + "Haddr[29]" + "Haddr[2]" + "Haddr[30]" + 
+    "Haddr[31]" + "Haddr[3]" + "Haddr[4]" + "Haddr[5]" + "Haddr[6]" + "Haddr[7]" 
+    + "Haddr[8]" + "Haddr[9]" + "Hclk" + "Hrstn" + "Hsel_APB" + "Htrans[0]" + 
+    "Htrans[1]" + "Hwdata[0]" + "Hwdata[10]" + "Hwdata[11]" + "Hwdata[12]" + 
+    "Hwdata[13]" + "Hwdata[14]" + "Hwdata[15]" + "Hwdata[16]" + "Hwdata[17]" + 
+    "Hwdata[18]" + "Hwdata[19]" + "Hwdata[1]" + "Hwdata[20]" + "Hwdata[21]" + 
+    "Hwdata[22]" + "Hwdata[23]" + "Hwdata[24]" + "Hwdata[25]" + "Hwdata[26]" + 
+    "Hwdata[27]" + "Hwdata[28]" + "Hwdata[29]" + "Hwdata[2]" + "Hwdata[30]" + 
+    "Hwdata[31]" + "Hwdata[3]" + "Hwdata[4]" + "Hwdata[5]" + "Hwdata[6]" + 
+    "Hwdata[7]" + "Hwdata[8]" + "Hwdata[9]" + "Hwrite" + "Prdata[0]" + 
+    "Prdata[10]" + "Prdata[11]" + "Prdata[12]" + "Prdata[13]" + "Prdata[14]" + 
+    "Prdata[15]" + "Prdata[16]" + "Prdata[17]" + "Prdata[18]" + "Prdata[19]" + 
+    "Prdata[1]" + "Prdata[20]" + "Prdata[21]" + "Prdata[22]" + "Prdata[23]" + 
+    "Prdata[24]" + "Prdata[25]" + "Prdata[26]" + "Prdata[27]" + "Prdata[28]" + 
+    "Prdata[29]" + "Prdata[2]" + "Prdata[30]" + "Prdata[31]" + "Prdata[3]" + 
+    "Prdata[4]" + "Prdata[5]" + "Prdata[6]" + "Prdata[7]" + "Prdata[8]" + 
+    "Prdata[9]" + "test_se" + "test_si"';
+    "all_outputs" = '"Hrdata[0]" + "Hrdata[10]" + "Hrdata[11]" + "Hrdata[12]" + 
+    "Hrdata[13]" + "Hrdata[14]" + "Hrdata[15]" + "Hrdata[16]" + "Hrdata[17]" + 
+    "Hrdata[18]" + "Hrdata[19]" + "Hrdata[1]" + "Hrdata[20]" + "Hrdata[21]" + 
+    "Hrdata[22]" + "Hrdata[23]" + "Hrdata[24]" + "Hrdata[25]" + "Hrdata[26]" + 
+    "Hrdata[27]" + "Hrdata[28]" + "Hrdata[29]" + "Hrdata[2]" + "Hrdata[30]" + 
+    "Hrdata[31]" + "Hrdata[3]" + "Hrdata[4]" + "Hrdata[5]" + "Hrdata[6]" + 
+    "Hrdata[7]" + "Hrdata[8]" + "Hrdata[9]" + "Hready_out" + "Hresp[0]" + 
+    "Hresp[1]" + "Paddr[0]" + "Paddr[10]" + "Paddr[11]" + "Paddr[12]" + 
+    "Paddr[13]" + "Paddr[14]" + "Paddr[15]" + "Paddr[16]" + "Paddr[17]" + 
+    "Paddr[18]" + "Paddr[19]" + "Paddr[1]" + "Paddr[20]" + "Paddr[21]" + 
+    "Paddr[22]" + "Paddr[23]" + "Paddr[24]" + "Paddr[25]" + "Paddr[26]" + 
+    "Paddr[27]" + "Paddr[28]" + "Paddr[29]" + "Paddr[2]" + "Paddr[30]" + 
+    "Paddr[31]" + "Paddr[3]" + "Paddr[4]" + "Paddr[5]" + "Paddr[6]" + "Paddr[7]" 
+    + "Paddr[8]" + "Paddr[9]" + "Penable" + "Pselx" + "Pwdata[0]" + "Pwdata[10]" 
+    + "Pwdata[11]" + "Pwdata[12]" + "Pwdata[13]" + "Pwdata[14]" + "Pwdata[15]" + 
+    "Pwdata[16]" + "Pwdata[17]" + "Pwdata[18]" + "Pwdata[19]" + "Pwdata[1]" + 
+    "Pwdata[20]" + "Pwdata[21]" + "Pwdata[22]" + "Pwdata[23]" + "Pwdata[24]" + 
+    "Pwdata[25]" + "Pwdata[26]" + "Pwdata[27]" + "Pwdata[28]" + "Pwdata[29]" + 
+    "Pwdata[2]" + "Pwdata[30]" + "Pwdata[31]" + "Pwdata[3]" + "Pwdata[4]" + 
+    "Pwdata[5]" + "Pwdata[6]" + "Pwdata[7]" + "Pwdata[8]" + "Pwdata[9]" + 
+    "Pwrite" + "test_so"';
+    "all_ports" = '"all_inputs" + "all_outputs"';
+    "_pi" = '"Haddr[0]" + "Haddr[10]" + "Haddr[11]" + "Haddr[12]" + "Haddr[13]" 
+    + "Haddr[14]" + "Haddr[15]" + "Haddr[16]" + "Haddr[17]" + "Haddr[18]" + 
+    "Haddr[19]" + "Haddr[1]" + "Haddr[20]" + "Haddr[21]" + "Haddr[22]" + 
+    "Haddr[23]" + "Haddr[24]" + "Haddr[25]" + "Haddr[26]" + "Haddr[27]" + 
+    "Haddr[28]" + "Haddr[29]" + "Haddr[2]" + "Haddr[30]" + "Haddr[31]" + 
+    "Haddr[3]" + "Haddr[4]" + "Haddr[5]" + "Haddr[6]" + "Haddr[7]" + "Haddr[8]" 
+    + "Haddr[9]" + "Hclk" + "Hrstn" + "Hsel_APB" + "Htrans[0]" + "Htrans[1]" + 
+    "Hwdata[0]" + "Hwdata[10]" + "Hwdata[11]" + "Hwdata[12]" + "Hwdata[13]" + 
+    "Hwdata[14]" + "Hwdata[15]" + "Hwdata[16]" + "Hwdata[17]" + "Hwdata[18]" + 
+    "Hwdata[19]" + "Hwdata[1]" + "Hwdata[20]" + "Hwdata[21]" + "Hwdata[22]" + 
+    "Hwdata[23]" + "Hwdata[24]" + "Hwdata[25]" + "Hwdata[26]" + "Hwdata[27]" + 
+    "Hwdata[28]" + "Hwdata[29]" + "Hwdata[2]" + "Hwdata[30]" + "Hwdata[31]" + 
+    "Hwdata[3]" + "Hwdata[4]" + "Hwdata[5]" + "Hwdata[6]" + "Hwdata[7]" + 
+    "Hwdata[8]" + "Hwdata[9]" + "Hwrite" + "Prdata[0]" + "Prdata[10]" + 
+    "Prdata[11]" + "Prdata[12]" + "Prdata[13]" + "Prdata[14]" + "Prdata[15]" + 
+    "Prdata[16]" + "Prdata[17]" + "Prdata[18]" + "Prdata[19]" + "Prdata[1]" + 
+    "Prdata[20]" + "Prdata[21]" + "Prdata[22]" + "Prdata[23]" + "Prdata[24]" + 
+    "Prdata[25]" + "Prdata[26]" + "Prdata[27]" + "Prdata[28]" + "Prdata[29]" + 
+    "Prdata[2]" + "Prdata[30]" + "Prdata[31]" + "Prdata[3]" + "Prdata[4]" + 
+    "Prdata[5]" + "Prdata[6]" + "Prdata[7]" + "Prdata[8]" + "Prdata[9]" + 
+    "test_se" + "test_si"';
+    "_po" = '"Hrdata[0]" + "Hrdata[10]" + "Hrdata[11]" + "Hrdata[12]" + 
+    "Hrdata[13]" + "Hrdata[14]" + "Hrdata[15]" + "Hrdata[16]" + "Hrdata[17]" + 
+    "Hrdata[18]" + "Hrdata[19]" + "Hrdata[1]" + "Hrdata[20]" + "Hrdata[21]" + 
+    "Hrdata[22]" + "Hrdata[23]" + "Hrdata[24]" + "Hrdata[25]" + "Hrdata[26]" + 
+    "Hrdata[27]" + "Hrdata[28]" + "Hrdata[29]" + "Hrdata[2]" + "Hrdata[30]" + 
+    "Hrdata[31]" + "Hrdata[3]" + "Hrdata[4]" + "Hrdata[5]" + "Hrdata[6]" + 
+    "Hrdata[7]" + "Hrdata[8]" + "Hrdata[9]" + "Hready_out" + "Hresp[0]" + 
+    "Hresp[1]" + "Paddr[0]" + "Paddr[10]" + "Paddr[11]" + "Paddr[12]" + 
+    "Paddr[13]" + "Paddr[14]" + "Paddr[15]" + "Paddr[16]" + "Paddr[17]" + 
+    "Paddr[18]" + "Paddr[19]" + "Paddr[1]" + "Paddr[20]" + "Paddr[21]" + 
+    "Paddr[22]" + "Paddr[23]" + "Paddr[24]" + "Paddr[25]" + "Paddr[26]" + 
+    "Paddr[27]" + "Paddr[28]" + "Paddr[29]" + "Paddr[2]" + "Paddr[30]" + 
+    "Paddr[31]" + "Paddr[3]" + "Paddr[4]" + "Paddr[5]" + "Paddr[6]" + "Paddr[7]" 
+    + "Paddr[8]" + "Paddr[9]" + "Penable" + "Pselx" + "Pwdata[0]" + "Pwdata[10]" 
+    + "Pwdata[11]" + "Pwdata[12]" + "Pwdata[13]" + "Pwdata[14]" + "Pwdata[15]" + 
+    "Pwdata[16]" + "Pwdata[17]" + "Pwdata[18]" + "Pwdata[19]" + "Pwdata[1]" + 
+    "Pwdata[20]" + "Pwdata[21]" + "Pwdata[22]" + "Pwdata[23]" + "Pwdata[24]" + 
+    "Pwdata[25]" + "Pwdata[26]" + "Pwdata[27]" + "Pwdata[28]" + "Pwdata[29]" + 
+    "Pwdata[2]" + "Pwdata[30]" + "Pwdata[31]" + "Pwdata[3]" + "Pwdata[4]" + 
+    "Pwdata[5]" + "Pwdata[6]" + "Pwdata[7]" + "Pwdata[8]" + "Pwdata[9]" + 
+    "Pwrite" + "test_so"';
+}
+ScanStructures {
+    ScanChain "1" {
+        ScanLength 3;
+        ScanIn "test_si";
+        ScanOut "test_so";
+        ScanEnable "test_se";
+        ScanMasterClock "Hclk";
+    }
+}
+Timing {
+    WaveformTable "_default_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "Hclk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "Hrstn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_multiclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "Hclk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "Hrstn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "Hclk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "Hrstn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "Hclk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "Hrstn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+    WaveformTable "_allclock_launch_capture_WFT_" {
+        Period '100ns';
+        Waveforms {
+            "all_inputs" {
+                0 {
+                    '0ns' D;
+                }
+            }
+            "all_inputs" {
+                1 {
+                    '0ns' U;
+                }
+            }
+            "all_inputs" {
+                Z {
+                    '0ns' Z;
+                }
+            }
+            "all_inputs" {
+                N {
+                    '0ns' N;
+                }
+            }
+            "all_outputs" {
+                X {
+                    '0ns' X;
+                    '40ns' X;
+                }
+            }
+            "all_outputs" {
+                H {
+                    '0ns' X;
+                    '40ns' H;
+                }
+            }
+            "all_outputs" {
+                T {
+                    '0ns' X;
+                    '40ns' T;
+                }
+            }
+            "all_outputs" {
+                L {
+                    '0ns' X;
+                    '40ns' L;
+                }
+            }
+            "Hclk" {
+                P {
+                    '0ns' D;
+                    '45ns' U;
+                    '55ns' D;
+                }
+            }
+            "Hrstn" {
+                P {
+                    '0ns' U;
+                    '45ns' D;
+                    '55ns' U;
+                }
+            }
+        }
+    }
+}
+Procedures {
+    "multiclock_capture" {
+        W "_multiclock_capture_WFT_";
+        C {
+            "all_inputs" = \r32 N 01 \r70 N;
+            "all_outputs" = \r103 X;
+        }
+        V {
+            "_pi" = \r104 #;
+            "_po" = \r103 #;
+        }
+    }
+    "allclock_capture" {
+        W "_allclock_capture_WFT_";
+        C {
+            "all_inputs" = \r32 N 01 \r70 N;
+            "all_outputs" = \r103 X;
+        }
+        V {
+            "_pi" = \r104 #;
+            "_po" = \r103 #;
+        }
+    }
+    "allclock_launch" {
+        W "_allclock_launch_WFT_";
+        C {
+            "all_inputs" = \r32 N 01 \r70 N;
+            "all_outputs" = \r103 X;
+        }
+        V {
+            "_pi" = \r104 #;
+            "_po" = \r103 #;
+        }
+    }
+    "allclock_launch_capture" {
+        W "_allclock_launch_capture_WFT_";
+        C {
+            "all_inputs" = \r32 N 01 \r70 N;
+            "all_outputs" = \r103 X;
+        }
+        V {
+            "_pi" = \r104 #;
+            "_po" = \r103 #;
+        }
+    }
+    "load_unload" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r32 N 01 \r70 N;
+            "all_outputs" = \r103 X;
+        }
+        "Internal_scan_pre_shift" : V {
+            "test_se" = 1;
+        }
+        Shift {
+            V {
+                "_clk" = P1;
+                "_si" = #;
+                "_so" = #;
+            }
+        }
+    }
+}
+MacroDefs {
+    "test_setup" {
+        W "_default_WFT_";
+        C {
+            "all_inputs" = \r104 N;
+            "all_outputs" = \r103 X;
+        }
+        V {
+            "Hclk" = 0;
+            "Hrstn" = 1;
+        }
+        V {
+        }
+    }
+}
+

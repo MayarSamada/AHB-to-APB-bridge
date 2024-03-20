@@ -1,0 +1,18 @@
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN fsm ;
+
+SCANCHAINS 1 ;
+
+- 1
++ START PIN test_si
++ FLOATING current_state_reg_0_ ( IN SI ) ( OUT Q )
+           current_state_reg_1_ ( IN SI ) ( OUT QN )
++ PARTITION Hclk_45_45
++ STOP current_state_reg_2_ SI ;
+
+END SCANCHAINS
+
+END DESIGN
