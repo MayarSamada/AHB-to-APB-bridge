@@ -1,0 +1,47 @@
+
+Name of design : fsm
+Number of cell instances in the design : 147
+Number of cell instance masters in the library : 9
+
+Processing power net VSS ...
+Number of power net wires : 100
+Number of vias : 1875
+Average power dissipation in fsm :    50.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning power net wires ...
+Constructing virtual grid ..
+Performing virtual connection ...
+Reading virtual power pads
+Extracting power net VSS ...
+Number of power pad nodes connecting to power net VSS : 84
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 84
+Number of resistors in VSS : 8581
+Number of nodes in VSS : 5602
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in fsm : 0.55 mV
+Maximum current in fsm : 1.210 mA
+
+Processing power net VDD ...
+Number of power net wires : 100
+Number of vias : 1875
+Average power dissipation in fsm :    50.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning power net wires ...
+Constructing virtual grid ..
+Performing virtual connection ...
+Reading virtual power pads
+Extracting power net VDD ...
+Number of power pad nodes connecting to power net VDD : 90
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 90
+Number of resistors in VDD : 8633
+Number of nodes in VDD : 5646
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in fsm : 0.50 mV
+Maximum current in fsm : 1.475 mA
+Overall takes     0.59 seconds
