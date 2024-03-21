@@ -1,0 +1,109 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 10
+Design : fsm
+Version: G-2012.06-ICC-SP2
+Date   : Mon Mar 13 06:48:15 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRVirtualC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: current_state_reg_0_
+            (rising edge-triggered flip-flop clocked by Hclk)
+  Path Group: Hclk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/QN (DFFR_X1)        0.27       0.27 r
+  U216/ZN (OAI22_X1)                       0.07 *     0.34 f
+  current_state_reg_0_/D (DFFR_X1)         0.00 *     0.34 f
+  data arrival time                                   0.34
+
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  library hold time                        0.01       0.01
+  data required time                                  0.01
+  -----------------------------------------------------------
+  data required time                                  0.01
+  data arrival time                                  -0.34
+  -----------------------------------------------------------
+  slack (MET)                                         0.32
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: current_state_reg_2_
+            (rising edge-triggered flip-flop clocked by Hclk)
+  Path Group: Hclk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.30       0.31 f
+  U109/ZN (NAND3_X1)                       0.06 *     0.37 r
+  U217/ZN (OAI21_X1)                       0.04 *     0.41 f
+  current_state_reg_2_/D (DFFR_X1)         0.00 *     0.41 f
+  data arrival time                                   0.41
+
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_2_/CK (DFFR_X1)        0.00       0.00 r
+  library hold time                        0.01       0.01
+  data required time                                  0.01
+  -----------------------------------------------------------
+  data required time                                  0.01
+  data arrival time                                  -0.41
+  -----------------------------------------------------------
+  slack (MET)                                         0.40
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: current_state_reg_1_
+            (rising edge-triggered flip-flop clocked by Hclk)
+  Path Group: Hclk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/QN (DFFR_X1)        0.27       0.27 r
+  U110/ZN (NAND3_X1)                       0.10 *     0.37 f
+  U218/ZN (OAI21_X1)                       0.08 *     0.44 r
+  current_state_reg_1_/D (DFFR_X1)         0.00 *     0.44 r
+  data arrival time                                   0.44
+
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_1_/CK (DFFR_X1)        0.00       0.00 r
+  library hold time                        0.03       0.04
+  data required time                                  0.04
+  -----------------------------------------------------------
+  data required time                                  0.04
+  data arrival time                                  -0.44
+  -----------------------------------------------------------
+  slack (MET)                                         0.41
+
+
+1

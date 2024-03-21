@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : noise
+Design : fsm
+Version: G-2012.06-ICC-SP2
+Date   : Mon Mar 13 07:10:04 2017
+****************************************
+
+
+slack type: area
+
+noise_region: above_low
+pin name          width     height    slack
+-------------------------------------------------
+U180/A1           0.00      0.04      0.00
+
+noise_region: below_high
+pin name          width     height    slack
+-------------------------------------------------
+U180/A1           0.00      0.04      0.00
+1

@@ -1,0 +1,402 @@
+
+  Loading design 'fsm'
+
+
+Warning: Port 'Htrans[0]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'test_so' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'test_se' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'test_si' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+
+
+Information: The design has 255 physical cells. (PSYN-105)
+Information: Library Manufacturing Grid(GridResolution) : 5
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'ff' 
+Information: Design Library and main library capacitance units are matched - 0.001 pf. 
+Information: Layer metal7 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer metal8 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer metal9 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: Layer metal10 is ignored for resistance and capacitance computation. (RCEX-019)
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Memory usage for extraction task 103 Mbytes -- main task 233 Mbytes.
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is 125/125/125. (RCEX-043)
+Information: Coupling capacitances are explicitly created. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Updating graph... (UID-83)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     false
+Reselection in timing window:      false
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Updating design information... (UID-85)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     false
+Reselection in timing window:      false
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Input delay ('fall') on clock port 'Hclk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'Hclk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'Hclk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'Hclk' will be added to the clock's propagated skew. (TIM-112)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : fsm
+Version: G-2012.06-ICC-SP2
+Date   : Mon Mar 13 07:23:40 2017
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays =  0.00%
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[27] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U114/ZN (NAND2_X1)                       0.13 &     0.57 f
+  U5/ZN (INV_X1)                           0.12 &     0.70 r
+  U146/ZN (AND2_X1)                        0.19 &     0.89 r
+  Paddr[27] (out)                          0.02 &     0.91 r
+  data arrival time                                   0.91
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.91
+  -----------------------------------------------------------
+  slack (MET)                                         0.69
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hready_out (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/QN (DFFR_X1)        0.28       0.28 f
+  U119/ZN (AND2_X1)                        0.15 &     0.43 f
+  U115/ZN (NAND2_X1)                       0.17 &     0.60 r
+  U118/ZN (OAI21_X1)                       0.10 &     0.71 f
+  U117/ZN (OR2_X1)                         0.20 &     0.90 f
+  Hready_out (out)                         0.00 &     0.90 f
+  data arrival time                                   0.90
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.90
+  -----------------------------------------------------------
+  slack (MET)                                         0.70
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[31] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U114/ZN (NAND2_X1)                       0.13 &     0.57 f
+  U24/ZN (INV_X1)                          0.14 &     0.72 r
+  U150/ZN (AND2_X1)                        0.16 &     0.88 r
+  Paddr[31] (out)                          0.01 &     0.89 r
+  data arrival time                                   0.89
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.89
+  -----------------------------------------------------------
+  slack (MET)                                         0.71
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[28] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U14/ZN (NAND2_X1)                        0.13 &     0.58 f
+  U30/ZN (INV_X1)                          0.11 &     0.69 r
+  U147/ZN (AND2_X1)                        0.18 &     0.87 r
+  Paddr[28] (out)                          0.01 &     0.88 r
+  data arrival time                                   0.88
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (MET)                                         0.72
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[29] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U114/ZN (NAND2_X1)                       0.13 &     0.57 f
+  U24/ZN (INV_X1)                          0.14 &     0.72 r
+  U148/ZN (AND2_X1)                        0.16 &     0.88 r
+  Paddr[29] (out)                          0.00 &     0.88 r
+  data arrival time                                   0.88
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (MET)                                         0.72
+
+
+  Startpoint: current_state_reg_2_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Pwdata[1] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_2_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_2_/Q (DFFR_X1)         0.39       0.39 r
+  U9/ZN (AND2_X1)                          0.14 &     0.53 r
+  U2/ZN (INV_X1)                           0.06 &     0.59 f
+  U3/ZN (INV_X1)                           0.10 &     0.69 r
+  U152/ZN (AND2_X1)                        0.18 &     0.87 r
+  Pwdata[1] (out)                          0.01 &     0.88 r
+  data arrival time                                   0.88
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.88
+  -----------------------------------------------------------
+  slack (MET)                                         0.72
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[18] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U114/ZN (NAND2_X1)                       0.13 &     0.57 f
+  U5/ZN (INV_X1)                           0.12 &     0.70 r
+  U137/ZN (AND2_X1)                        0.17 &     0.86 r
+  Paddr[18] (out)                          0.01 &     0.87 r
+  data arrival time                                   0.87
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.73
+
+
+  Startpoint: current_state_reg_0_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Paddr[20] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_0_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_0_/Q (DFFR_X1)         0.44       0.44 r
+  U114/ZN (NAND2_X1)                       0.13 &     0.57 f
+  U23/ZN (INV_X1)                          0.11 &     0.69 r
+  U139/ZN (AND2_X1)                        0.16 &     0.85 r
+  Paddr[20] (out)                          0.02 &     0.87 r
+  data arrival time                                   0.87
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.87
+  -----------------------------------------------------------
+  slack (MET)                                         0.73
+
+
+  Startpoint: current_state_reg_1_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[19] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_1_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_1_/Q (DFFR_X1)         0.39       0.40 r
+  U10/ZN (INV_X1)                          0.06 &     0.46 f
+  U16/ZN (INV_X1)                          0.10 &     0.56 r
+  U21/ZN (AND2_X1)                         0.15 &     0.71 r
+  U202/ZN (AND2_X1)                        0.15 &     0.86 r
+  Hrdata[19] (out)                         0.01 &     0.86 r
+  data arrival time                                   0.86
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.86
+  -----------------------------------------------------------
+  slack (MET)                                         0.74
+
+
+  Startpoint: current_state_reg_1_
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[29] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (propagated)         0.00       0.00
+  current_state_reg_1_/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg_1_/Q (DFFR_X1)         0.39       0.40 r
+  U10/ZN (INV_X1)                          0.06 &     0.46 f
+  U16/ZN (INV_X1)                          0.10 &     0.56 r
+  U6/ZN (AND2_X1)                          0.17 &     0.73 r
+  U212/ZN (AND2_X1)                        0.13 &     0.86 r
+  Hrdata[29] (out)                         0.00 &     0.86 r
+  data arrival time                                   0.86
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (propagated)         0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.86
+  -----------------------------------------------------------
+  slack (MET)                                         0.74
+
+
+1
