@@ -1,0 +1,314 @@
+ 
+****************************************
+Report : cell
+Design : fsm
+Version: G-2012.06-SP2
+Date   : Sun Mar 12 13:25:05 2017
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U105                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U106                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U107                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U108                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U109                      NAND3_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U110                      NAND3_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U111                      NAND2_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          0.798000  
+U112                      NAND2_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          0.798000  
+U113                      NAND2_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          0.798000  
+U114                      NAND2_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          0.798000  
+U115                      NAND2_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          0.798000  
+U116                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U117                      OR2_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U118                      OAI21_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U119                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U120                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U121                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U122                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U123                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U124                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U125                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U126                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U127                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U128                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U129                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U130                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U131                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U132                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U133                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U134                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U135                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U136                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U137                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U138                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U139                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U140                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U141                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U142                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U143                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U144                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U145                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U146                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U147                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U148                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U149                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U150                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U151                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U152                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U153                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U154                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U155                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U156                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U157                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U158                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U159                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U160                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U161                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U162                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U163                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U164                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U165                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U166                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U167                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U168                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U169                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U170                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U171                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U172                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U173                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U174                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U175                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U176                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U177                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U178                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U179                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U180                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U181                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U182                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U183                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U184                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U185                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U186                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U187                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U188                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U189                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U190                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U191                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U192                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U193                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U194                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U195                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U196                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U197                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U198                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U199                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U200                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U201                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U202                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U203                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U204                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U205                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U206                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U207                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U208                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U209                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U210                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U211                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U212                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U213                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U214                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U215                      AND2_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U216                      OAI22_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.330000  
+U217                      OAI21_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U218                      OAI21_X1        NangateOpenCellLibrary_ss0p95v125c
+                                                          1.064000  
+U219                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U220                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U221                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U222                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U223                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U224                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U225                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U226                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U227                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U228                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U229                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U230                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U231                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U232                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U233                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U234                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U235                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U236                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U237                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U238                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U239                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U240                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U241                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U242                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U243                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U244                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U245                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U246                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U247                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+U248                      INV_X1          NangateOpenCellLibrary_ss0p95v125c
+                                                          0.532000  
+current_state_reg[0]      DFFR_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          5.320000  n
+current_state_reg[1]      DFFR_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          5.320000  n
+current_state_reg[2]      DFFR_X1         NangateOpenCellLibrary_ss0p95v125c
+                                                          5.320000  n
+--------------------------------------------------------------------------------
+Total 147 cells                                           149.492002
+1

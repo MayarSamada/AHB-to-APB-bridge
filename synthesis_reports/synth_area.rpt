@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : fsm
+Version: G-2012.06-SP2
+Date   : Sun Mar 12 13:25:05 2017
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95v125c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95v125c.db)
+
+Number of ports:                          207
+Number of nets:                           252
+Number of cells:                          147
+Number of combinational cells:            144
+Number of sequential cells:                 3
+Number of macros:                           0
+Number of buf/inv:                         35
+Number of references:                       8
+
+Combinational area:        133.532001
+Buf/Inv area:               18.620000
+Noncombinational area:      15.960001
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           149.492002
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+fsm                                149.4920    100.0  133.5320    15.9600  0.0000  fsm
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 133.5320    15.9600  0.0000
+
+1

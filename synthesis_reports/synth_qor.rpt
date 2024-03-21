@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : fsm
+Version: G-2012.06-SP2
+Date   : Sun Mar 12 13:25:05 2017
+****************************************
+
+
+  Timing Path Group 'Hclk'
+  -----------------------------------
+  Levels of Logic:               6.00
+  Critical Path Length:          0.85
+  Critical Path Slack:           0.75
+  Critical Path Clk Period:      3.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                147
+  Buf/Inv Cell Count:              35
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       144
+  Sequential Cell Count:            3
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      133.532001
+  Noncombinational Area:    15.960001
+  Buf/Inv Area:             18.620000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:               149.492002
+  Design Area:             149.492002
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           252
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: localhost.localdomain
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.10
+  Logic Optimization:                  0.19
+  Mapping Optimization:                0.38
+  -----------------------------------------
+  Overall Compile Time:                3.11
+  Overall Compile Wall Clock Time:     2.27
+
+1

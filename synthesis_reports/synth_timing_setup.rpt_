@@ -1,0 +1,387 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : fsm
+Version: G-2012.06-SP2
+Date   : Mon Mar  6 09:07:57 2017
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_ss0p95v125c
+Wire Load Model Mode: top
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hready_out (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U219/ZN (INV_X1)                         0.07       0.72 f
+  U118/ZN (AOI21_X1)                       0.21       0.93 r
+  U115/ZN (NAND2_X1)                       0.07       1.00 f
+  Hready_out (out)                         0.00       1.00 f
+  data arrival time                                   1.00
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -1.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.60
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Penable (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U219/ZN (INV_X1)                         0.07       0.72 f
+  U118/ZN (AOI21_X1)                       0.21       0.93 r
+  U105/ZN (INV_X1)                         0.04       0.97 f
+  Penable (out)                            0.00       0.97 f
+  data arrival time                                   0.97
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.97
+  -----------------------------------------------------------
+  slack (MET)                                         0.63
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[7] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U219/ZN (INV_X1)                         0.07       0.72 f
+  U123/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[7] (out)                          0.00       0.84 f
+  data arrival time                                   0.84
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.84
+  -----------------------------------------------------------
+  slack (MET)                                         0.76
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[8] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U219/ZN (INV_X1)                         0.07       0.72 f
+  U124/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[8] (out)                          0.00       0.84 f
+  data arrival time                                   0.84
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.84
+  -----------------------------------------------------------
+  slack (MET)                                         0.76
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[9] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U219/ZN (INV_X1)                         0.07       0.72 f
+  U125/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[9] (out)                          0.00       0.84 f
+  data arrival time                                   0.84
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.84
+  -----------------------------------------------------------
+  slack (MET)                                         0.76
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[1] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U227/ZN (INV_X1)                         0.12       0.65 r
+  U224/ZN (INV_X1)                         0.07       0.72 f
+  U186/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[1] (out)                          0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         0.77
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[2] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U221/ZN (INV_X1)                         0.07       0.72 f
+  U187/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[2] (out)                          0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         0.77
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[3] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U220/ZN (INV_X1)                         0.07       0.72 f
+  U188/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[3] (out)                          0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         0.77
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[4] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U220/ZN (INV_X1)                         0.07       0.72 f
+  U189/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[4] (out)                          0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         0.77
+
+
+  Startpoint: current_state_reg[2]
+              (rising edge-triggered flip-flop clocked by Hclk)
+  Endpoint: Hrdata[5] (output port clocked by Hclk)
+  Path Group: Hclk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm                5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock Hclk (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  current_state_reg[2]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[2]/QN (DFFR_X1)        0.27       0.27 f
+  U116/ZN (NAND2_X1)                       0.10       0.37 r
+  U106/ZN (INV_X1)                         0.05       0.42 f
+  U119/ZN (AND2_X1)                        0.12       0.54 f
+  U228/ZN (INV_X1)                         0.12       0.65 r
+  U220/ZN (INV_X1)                         0.07       0.72 f
+  U190/ZN (AND2_X1)                        0.11       0.83 f
+  Hrdata[5] (out)                          0.00       0.83 f
+  data arrival time                                   0.83
+
+  clock Hclk (rise edge)                   3.00       3.00
+  clock network delay (ideal)              0.00       3.00
+  clock uncertainty                       -0.20       2.80
+  output external delay                   -1.20       1.60
+  data required time                                  1.60
+  -----------------------------------------------------------
+  data required time                                  1.60
+  data arrival time                                  -0.83
+  -----------------------------------------------------------
+  slack (MET)                                         0.77
+
+
+1
